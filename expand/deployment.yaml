@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: expand-api
+  name: expand
 spec:
-  replicas: 2
+  replicas: 1
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: expand-api
+      app: expand
   template:
     metadata:
       labels:
-        app: expand-api
+        app: expand
     spec:
       containers:
-      - image: parmanand0712/expand-api:latest
-        name: expand-api
+      - image: parmanand0712/expand:v1
+        name: expand
         ports:
         - containerPort: 3000
