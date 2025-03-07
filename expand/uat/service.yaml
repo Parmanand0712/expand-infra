@@ -4,8 +4,10 @@ metadata:
   name: expand
   namespace: uat
 spec:
+  selector:
+    app: expand
   ports:
   - port: 80
     targetPort: 3000
-  selector:
-    app: expand
+    protocol: TCP
+  type: ClusterIP
