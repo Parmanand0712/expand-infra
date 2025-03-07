@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: expand-env-uat
+  namespace: uat
+data:
+  DYNAMODB_USAGE_TABLE: "uat_usage_data"
+  DYNAMODB_USAGE_TABLE_INDEX: "uat_usage_data-index"
