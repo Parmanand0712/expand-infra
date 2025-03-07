@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: expand
+  namespace: uat
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: expand
+  template:
+    metadata:
+      labels:
+        app: expand
+    spec:
+      containers:
+      - image: parmanand0712/expand:74df88c
+        name: expand
+        ports:
+        - containerPort: 3000
+        envFrom:
+        - configMapRef:
+            name: expand-env-uat
