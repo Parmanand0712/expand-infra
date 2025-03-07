@@ -15,10 +15,11 @@ spec:
         app: expand
     spec:
       containers:
-      - image: parmanand0712/expand:74df88c
-        name: expand
+      - name: expand
+        image: parmanand0712/expand:74df88c
         ports:
         - containerPort: 3000
+          protocol: TCP
         envFrom:
         - configMapRef:
             name: expand-env-uat
