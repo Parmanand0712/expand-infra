@@ -14,7 +14,7 @@ spec:
         app: expand
     spec:
       containers:
-      - image: parmanand0712/expand:74df88c
+      - image: parmanand0712/expand:732b5e0
         name: expand
         ports:
         - containerPort: 3000
