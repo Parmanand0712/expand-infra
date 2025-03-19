@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: expand
-        image: parmanand0712/expand-uat:v1
+        image: parmanand0712/expand-uat:d670fae
         ports:
         - containerPort: 3000
           protocol: TCP
