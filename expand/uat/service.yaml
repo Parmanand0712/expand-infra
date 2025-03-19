@@ -7,7 +7,8 @@ spec:
   selector:
     app: expand
   ports:
-  - port: 80
-    targetPort: 3000
-    protocol: TCP
-  type: ClusterIP
+    - port: 80
+      targetPort: 3000
+      protocol: TCP
+      nodePort: 30080  # Any port between 30000-32767
+  type: NodePort
