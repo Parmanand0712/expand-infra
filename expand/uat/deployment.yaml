@@ -22,4 +22,4 @@ spec:
           protocol: TCP
         envFrom:
         - configMapRef:
-            name: expand-env-uat
+            name: expand-env
