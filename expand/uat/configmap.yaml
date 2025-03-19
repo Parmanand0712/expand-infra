@@ -4,5 +4,66 @@ metadata:
   name: expand-env-uat
   namespace: uat
 data:
+  PORT: "3000"
+  
+  REST_API_ID: "igf1uuv927"
+  STAGE_NAME: "Production"
+  USAGE_PLAN_ID: "69js6b"
+  API_KEY: "q9kfozyMWG80FzIbJVyh07L38mypZdDH8fCeE3Mx"
+  
   DYNAMODB_USAGE_TABLE: "uat_usage_data"
   DYNAMODB_USAGE_TABLE_INDEX: "uat_usage_data-index"
+  DYNAMO_DAILY_USAGE_TABLE: "uat_daily_usage_data"
+  DYNAMODB_USER_TABLE: "users"
+  
+  DBUSER: "postgres"
+  DBPASSWORD: "postgres"
+  HOST: "expandhistoricaldetails.coe1f8mnjged.eu-west-2.rds.amazonaws.com"
+  PORTDB: "5432"
+  DATABASE: "ExpandHistoricalDetails"
+  PEMFILE: "postgres.pem"
+  DOMAINNAME: "https://uat.expand.network"
+  
+  REDIS_HOST: "localhost"
+  REDIS_PORT: "6379"
+  
+  BDN_AUTH: "0xf8698201da8502521738de8301e71494902c3bdf5c0d54fb0ec901aff8293f14750c6d458227108026a021cb2ab7a8452f2cd533edb879e6eb39913057ba207b84d18606370390a1b674a02fb37ca27b8475690d887ccac24915c1ee4c9b8d9affac35ea7555413b7cadd0"
+  
+  coinMarketCap: "dbbc77b5-609c-4a05-bdd8-132fe3e1769e"
+  oneinch: "QEecd0e1fD3vRuRdDJYhLvmmOeW6I4IJ"
+  zerox: "5cec45b4-28e9-4c34-bbe8-29a31fc78994"
+  
+  GLACIER: "ac_qx3_8Db5Z4daFbf09v-GedsR03eT9Zh1tzNAVtlQYkqglePZSPW36iO5--Be_ZrrhL4LeswiSk-4yG4rpxWKjA"
+  GLACIER_backup: "ac_2lBaBKFrc_uMg4dhXV0H6CE9i01XTcQzEoodu9uKwgsV352fp4soPeCksBYBu7UqfKACpH3pCTO1CNaU3cP77Q"
+  
+  tonRPCApiKey: "853bcccd7ee345a9260589f541e11657ffbb0c8ff08a2247967ae3a938cc7c22"
+  
+  CMC_KEY: "dbbc77b5-609c-4a05-bdd8-132fe3e1769e"
+  CCOMPARE_KEY: "9cfd7461c8bc4a9a74ea55ce76572b11528f0f95ec400f5ebd179254b89c111f"
+  BITQUERY_API_KEY: "BQYXM40vE1q3bGQsymh6Os5HE3ykiWBb"
+  BITQUERY_BEARER: "Bearer ory_at_hV3HMMbzA57qhQ9Ri5Xu-N-i5Uc-7Dzzdp6n8rQpsBY.0SyT9hA_bLZkltjbs6qxQDBk45-coJ3WgeikiT0loGw"
+  
+  COINRANKINGTOKEN: "coinranking912297f7cbcda20e126d7ecbbd994588c47384c3c09aee19"
+  
+  DYNAMODB_BLOCKCHAIN_TABLE: "decoded_logs_data"
+  DYNAMODB_TOKENLIST_MAIN_TABLE: "token_list"
+  DYNAMODB_TOKENLIST_HOT_TABLE: "test_token_list"
+  DYNAMODB_HOT_POOLS_TABLE: "hot_dex_pools"
+  DYNAMODB_MAIN_POOLS_TABLE: "dex_pools"
+  DYNAMODB_BLOCKCHAIN_TABLE_INDEX: "CONTRACT_ADDRESS-TIMESTAMP-index"
+  
+  SNOWFLAKE_ACCOUNT: "lkxpoul-lkb22408"
+  SNOWFLAKE_USERNAME: "varunexpand"
+  SNOWFLAKE_PASSWORD: "Expand@Snowflake1!"
+  SNOWFLAKE_WAREHOUSE: "COMPUTE_WH"
+  SNOWFLAKE_DATABASE: "SONARVERSE_ETHEREUM_DATA_SHARE"
+  SNOWFLAKE_SCHEMA: "ETHEREUM_SHARE"
+  SNOWFLAKE_ROLE: "ACCOUNTADMIN"
+  
+  covalentAPIKey: "cqt_rQpv3Pyfj3h98RDX8jWxYj6FjWD6"
+  
+  dexScreenerTable: "dexscreener_prod"
+  
+  AWS_REGION: "ap-southeast-1"
+  
+  DYNAMO_CETUS_MAINNET_POOLS: "cetus_mainnet_pools"
