@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: expand-env-uat
+  name: expand-env
   namespace: uat
 data:
   PORT: "3000"
